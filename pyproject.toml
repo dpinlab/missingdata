@@ -1,0 +1,41 @@
+[build-system]
+requires = ["setuptools", "wheel", "setuptools-scm[toml]>=6.2"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "missingdata-lib"
+dynamic = ["version"]
+authors = [
+  { name="Diego Pinheiro", email="diegompin@gmail.com" },
+  { name="Victor Lima", email="gabrielpearaujo20@gmail.com"}
+  { name="Rayssa Muniz", email=""}
+]
+description = "description"
+readme = "README.md"
+license = { file = "LICENSE" }
+requires-python = ">=3.9"
+keywords = ["missing, imputation, trust"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License", 
+  "Operating System :: OS Independent",
+]
+
+dependencies = [
+  "pypots",
+  "matplotlib",
+  "ipykernel",
+  "pandas",
+  "numpy",
+  "setuptools-scm"
+]
+
+[project.urls]
+Homepage = "https://github.com/dpinlab/missingdata" 
+
+[tool.setuptools.packages.find]
+include = ["missingdata", "missingdata.*"]
+
+[tool.setuptools_scm]
+version_scheme = "guess-next-dev"
+local_scheme = "node-and-date"
