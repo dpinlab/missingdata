@@ -8,7 +8,7 @@ dynamic = ["version"]
 authors = [
   { name="Diego Pinheiro", email="diegompin@gmail.com" },
   { name="Victor Lima", email="gabrielpearaujo20@gmail.com"},
-  { name="Rayssa Muniz", email=""}
+  { name="Rayssa Muniz", email="rayssamunizd@gmail.com"}
 ]
 description = "description"
 readme = "README.md"
