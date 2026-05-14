@@ -7,7 +7,7 @@ name = "missingdata-lib"
 dynamic = ["version"]
 authors = [
   { name="Diego Pinheiro", email="diegompin@gmail.com" },
-  { name="Victor Lima", email="gabrielpearaujo20@gmail.com"}
+  { name="Victor Lima", email="gabrielpearaujo20@gmail.com"},
   { name="Rayssa Muniz", email=""}
 ]
 description = "description"
